@@ -1,0 +1,44 @@
+.order-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #F9CCCC;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 0 20px;
+}
+
+.product-img img {
+    height: 90px;
+}
+
+.product-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.delete-btn {
+    height: 55px;
+    width: 55px;
+    background-color: #F9CCCC;
+    border: 0;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #EA5757;
+}
+
+.delete-icon {
+    font-size: 30px;
+    color: #ea5757;
+}
+
+.delete-btn:hover .delete-icon {
+    color: #F9CCCC;
+}

@@ -1,0 +1,25 @@
+.product {
+    position: relative;
+    height: 550px;
+    width: 300px;
+    border: 1px solid #2A414F;
+    text-align: center;
+}
+
+.product img {
+    height: 286px;
+    width: 286px;
+}
+
+.shop-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFE0B3;
+    border: none;
+    cursor: pointer;
+}
